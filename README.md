@@ -1,17 +1,25 @@
-# Linux System Programming
+# Program Execution Screenshots
 
-This repository contains Linux System Programming examples written in C.
+## Read File
 
-## Topics
+![Read File](Screenshots/read_file.png)
 
-- File I/O
-- Processes
-- Pipes
-- Threads
-- Mutexes
-- Shared Memory
-- Signals
-- Sockets
-- Timers
+## Copy File
 
-Each example is implemented, tested, and documented.
+![Copy File](Screenshots/copy_file.png)
+
+## File Information
+
+![File Information](Screenshots/file_info.png)
+
+## Directory Listing
+
+![Directory Listing](Screenshots/list_directory.png)
+
+## Process Creation using `fork()`
+
+![Fork Example](Screenshots/fork_example.png)
+
+## Process Synchronization using `wait()`
+
+![Wait Example](Screenshots/wait_example.png)
