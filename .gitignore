@@ -1,0 +1,23 @@
+# Compiled executables
+src/file_io/read_file
+src/file_io/write_file
+src/file_io/copy_file
+src/file_io/append_file
+src/file_io/word_count
+src/file_io/binary_reader
+src/file_io/file_info
+src/file_io/list_directory
+src/file_io/create_directory
+src/file_io/remove_directory
+
+src/process/fork_example
+src/process/wait_example
+
+# Object files
+*.o
+
+# VS Code
+.vscode/
+
+# Backup files
+*~

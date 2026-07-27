@@ -1,0 +1,25 @@
+while ((bytesRead = read(sourceFd, buffer, sizeof(buffer))) > 0)
+{
+    if (write(destFd, buffer, bytesRead) != bytesRead)
+    {
+        perror("Error writing to output file");
+        close(sourceFd);
+        close(destFd);
+        return 1;
+    }
+}
+
+if (bytesRead == -1)
+{
+    perror("Error reading input file");
+    close(sourceFd);
+    close(destFd);
+    return 1;
+}
+
+close(sourceFd);
+close(destFd);
+
+printf("File copied successfully!\n");
+
+return 0;
