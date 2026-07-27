@@ -1,0 +1,15 @@
+# Compiled binaries
+src/**/thread_create
+src/**/thread_argument
+src/**/multiple_threads
+src/**/race_condition
+src/**/mutex_example
+src/**/producer_consumer
+src/**/thread_logger
+
+# Log files
+*.log
+
+# Build files
+build/
+*.o
